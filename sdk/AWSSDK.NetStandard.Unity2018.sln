@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSSDK.Core.NetStandard", "src\Core\AWSSDK.Core.NetStandard.csproj", "{6C241815-0440-4942-BA68-C630DD70856D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSSDK.CognitoIdentity.NetStandard", "src\Services\CognitoIdentity\AWSSDK.CognitoIdentity.NetStandard.csproj", "{5C16EA50-BD31-400B-9098-6F7970055D49}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSSDK.CognitoIdentityProvider.NetStandard", "src\Services\CognitoIdentityProvider\AWSSDK.CognitoIdentityProvider.NetStandard.csproj", "{1E56ABAB-B972-4DBF-8BAD-FED20B6E728B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSSDK.CognitoSync.NetStandard", "src\Services\CognitoSync\AWSSDK.CognitoSync.NetStandard.csproj", "{21591183-B2C1-4729-B1D3-B86BF294F7D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSSDK.SecurityToken.NetStandard", "src\Services\SecurityToken\AWSSDK.SecurityToken.NetStandard.csproj", "{05BAEF00-D9A8-438D-BEB7-DC6C437448D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSSDK.DynamoDBv2.NetStandard", "src\Services\DynamoDBv2\AWSSDK.DynamoDBv2.NetStandard.csproj", "{5D33FDDB-A538-41D8-9631-903BE5BBAF20}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C241815-0440-4942-BA68-C630DD70856D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C241815-0440-4942-BA68-C630DD70856D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C241815-0440-4942-BA68-C630DD70856D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C241815-0440-4942-BA68-C630DD70856D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C16EA50-BD31-400B-9098-6F7970055D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C16EA50-BD31-400B-9098-6F7970055D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C16EA50-BD31-400B-9098-6F7970055D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C16EA50-BD31-400B-9098-6F7970055D49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E56ABAB-B972-4DBF-8BAD-FED20B6E728B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E56ABAB-B972-4DBF-8BAD-FED20B6E728B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E56ABAB-B972-4DBF-8BAD-FED20B6E728B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E56ABAB-B972-4DBF-8BAD-FED20B6E728B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21591183-B2C1-4729-B1D3-B86BF294F7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21591183-B2C1-4729-B1D3-B86BF294F7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21591183-B2C1-4729-B1D3-B86BF294F7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21591183-B2C1-4729-B1D3-B86BF294F7D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05BAEF00-D9A8-438D-BEB7-DC6C437448D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05BAEF00-D9A8-438D-BEB7-DC6C437448D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05BAEF00-D9A8-438D-BEB7-DC6C437448D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05BAEF00-D9A8-438D-BEB7-DC6C437448D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D33FDDB-A538-41D8-9631-903BE5BBAF20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D33FDDB-A538-41D8-9631-903BE5BBAF20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D33FDDB-A538-41D8-9631-903BE5BBAF20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D33FDDB-A538-41D8-9631-903BE5BBAF20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6EE2534-2CD3-46BB-A495-ABEBD85555B1}
+	EndGlobalSection
+EndGlobal
